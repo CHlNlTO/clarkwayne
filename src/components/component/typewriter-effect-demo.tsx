@@ -36,7 +36,7 @@ export function TypewriterEffectSmoothDemo() {
     },
   ];
   return (
-    <div className="z-10 whitespace-pre-wrap text-center text-md font-medium tracking-tighter text-black dark:text-white">
+    <div className="z-10 text-center text-md font-medium tracking-tighter text-black dark:text-white">
       <TypewriterEffectSmooth words={words} />
     </div>
   );
