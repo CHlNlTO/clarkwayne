@@ -33,19 +33,19 @@ export function ThemeToggle() {
       >
         <DropdownMenuItem
           onClick={() => setTheme("light")}
-          className="focus:bg-gray-100 dark:focus:bg-white/5 text-gray-800 dark:text-gray-400 font-medium rounded-md"
+          className="focus:bg-blue-50 dark:focus:bg-white/5 text-gray-800 dark:text-gray-400 font-medium rounded-md"
         >
           Light
         </DropdownMenuItem>
         <DropdownMenuItem
           onClick={() => setTheme("dark")}
-          className="focus:bg-gray-100 dark:focus:bg-white/10 text-gray-800 dark:text-gray-400 font-medium rounded-md"
+          className="focus:bg-blue-50 dark:focus:bg-white/10 text-gray-800 dark:text-gray-400 font-medium rounded-md"
         >
           Dark
         </DropdownMenuItem>
         <DropdownMenuItem
           onClick={() => setTheme("system")}
-          className="focus:bg-gray-100 dark:focus:bg-white/5 text-gray-800 dark:text-gray-400 font-medium rounded-md"
+          className="focus:bg-blue-50 dark:focus:bg-white/5 text-gray-800 dark:text-gray-400 font-medium rounded-md"
         >
           System
         </DropdownMenuItem>
