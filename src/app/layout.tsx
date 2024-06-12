@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import Navbar from "@/components/component/navbar";
 import protfolioWebsite from "@/assets/portfolio-website.jpg";
@@ -46,6 +47,7 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
