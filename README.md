@@ -8,3 +8,4 @@ Tailwindcss
 Aceternity UI
 Shadcn UI
 Magic UI
+Supabase
