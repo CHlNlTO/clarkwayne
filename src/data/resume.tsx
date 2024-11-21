@@ -12,7 +12,7 @@ export const DATA = {
     "Fullstack Web Developer & Competitive Programmer. I love building things and solving problems.",
   summary:
     "I&apos;ve gained hands-on experience with technologies like **Next.js**, **Laravel**, **Flask**, and have worked on a range of freelance projects. I&apos;m passionate about coding and I enjoy learning new tools to keep growing as a developer. Outside of coding, I&apos;m always up for new challenges—whether it&apos;s a hackathon, a side project, or just exploring ways technology can solve real-world problems.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.JPG",
   skills: [
     "React",
     "Next.js",
