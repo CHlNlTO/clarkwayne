@@ -73,9 +73,8 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "https://drive.google.com/file/d/1eWbGvMWI5bwxV3Ussjs_XzSDIR8nKe_r/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1feYBL7jPJVhu_KnmKrDKDQrkBwt08OuX/view?usp=sharing",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -83,7 +82,19 @@ export const DATA = {
 
   work: [
     {
-      company: "I.M.A. Assessment and Training Center Inc.",
+      company: "Nomad Telecom, USA",
+      href: "https://nomadtelecom.co/",
+      badges: [],
+      location: "Remote",
+      title: "Backend Web Developer - Freelance",
+      logoUrl: "/nomad.jpg",
+      start: "December 2024",
+      end: "January 2025",
+      description:
+        "Built an automated eSIM Fulfillment System that integrates Shopify, esim-go API, Supabase, and Gmail SMTP to automate order processing, QR code generation, and email delivery. Utilized webhooks, API orchestration, and cloud database management to streamline eSIM transactions, improving efficiency and automating customer communications for global eSIM sales.",
+    },
+    {
+      company: "Italian Maritime Academy - Assessment and Training Center Inc.",
       href: "http://www.imaphilsinc.com/",
       badges: [],
       location: "Remote",
@@ -99,7 +110,7 @@ export const DATA = {
       href: "https://citychapels.ph/",
       badges: [],
       location: "Remote",
-      title: "Backend Developer - Freelance",
+      title: "Backend Web Developer - Freelance",
       logoUrl: "/chapels.png",
       start: "October 2024",
       end: "November 2024",
