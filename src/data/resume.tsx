@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Fullstack Web Developer & Competitive Programmer. I love building things and solving problems.",
   summary:
-    "I&apos;ve gained hands-on experience with technologies like **Next.js**, **Laravel**, **Flask**, and have worked on a range of freelance projects. I&apos;m passionate about coding and I enjoy learning new tools to keep growing as a developer. Outside of coding, I&apos;m always up for new challenges—whether it&apos;s a hackathon, a side project, or just exploring ways technology can solve real-world problems.",
+    "I&apos;ve gained hands-on experience with technologies like **Next.js**, **Laravel**, **Flask**, **Ruby on Rails**, and have worked on a range of freelance projects. I&apos;m passionate about coding and I enjoy learning new tools to keep growing as a developer. Outside of coding, I&apos;m always up for new challenges—whether it&apos;s a hackathon, a side project, or just exploring ways technology can solve real-world problems.",
   avatarUrl: "/me.JPG",
   skills: [
     "React",
@@ -73,7 +73,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "https://drive.google.com/file/d/1feYBL7jPJVhu_KnmKrDKDQrkBwt08OuX/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1dVczF329yV-eRZ32r4NwI0w_VhNimkFj/view?usp=sharing",
         icon: Icons.email,
         navbar: false,
       },
@@ -82,9 +82,33 @@ export const DATA = {
 
   work: [
     {
-      company: "Nomad Telecom, USA",
-      href: "https://nomadtelecom.co/",
+      company: "Leadfusion 360",
+      href: "https://leadfusion360.com.au/",
+      badges: ["Australia"],
+      location: "Remote",
+      title: "Fullstack Web Developer - Freelance",
+      logoUrl: "/leadfusion.png",
+      start: "March 2025",
+      end: "April 2025",
+      description:
+        "Built AI-powered web applications with Svelte and Hono.js, transforming digital visibility for 50,000+ dental clinics across Australia. Optimizing performance, user experience, and automation to drive engagement and growth.",
+    },
+    {
+      company: "Digiteer Software Studio",
+      href: "https://www.digiteer.digital/",
       badges: [],
+      location: "Onsite",
+      title: "Fullstack Web Developer - Internship",
+      logoUrl: "/digiteer.webp",
+      start: "February 2025",
+      end: "March 2025",
+      description:
+        "Spearheaded backend development for four major web projects, guiding the team in building scalable Ruby on Rails modules. Drove seamless GitHub collaboration, ensuring rapid integration in a fast-paced environment",
+    },
+    {
+      company: "Nomad Telecom",
+      href: "https://nomadtelecom.co/",
+      badges: ["USA"],
       location: "Remote",
       title: "Backend Web Developer - Freelance",
       logoUrl: "/nomad.jpg",
@@ -159,7 +183,7 @@ export const DATA = {
       dates: "Aug 2024 - Sep 2024",
       active: true,
       description:
-        "Built a campus-exclusive website for my school, streamlining announcements and events, and integrated social media and story-sharing to boost student engagement and connection.",
+        "Built a campus-exclusive website for my school; streamlining announcements and events, integrated social media and story-sharing to boost student engagement and connection.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -188,7 +212,7 @@ export const DATA = {
     },
     {
       title: "IMA Portal",
-      href: "http://imacloudapplications.southeastasia.cloudapp.azure.com/admin/login",
+      href: "http://imacloudapplications.southeastasia.cloudapp.azure.com/",
       dates: "October 2024 - December 2024",
       active: true,
       description:
@@ -205,7 +229,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "http://imacloudapplications.southeastasia.cloudapp.azure.com/admin/login",
+          href: "http://imacloudapplications.southeastasia.cloudapp.azure.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -219,21 +243,22 @@ export const DATA = {
         "https://uiffmgyykbhewphigjsf.supabase.co/storage/v1/object/public/videos/ima_portal.mov",
     },
     {
-      title: "leaflet",
-      href: "https://leaflet-web-app.vercel.app/",
+      title: "Snapfolia",
+      href: "https://snapfolia.vercel.app/",
       dates: "April 2024 - May 2024",
       active: true,
       description:
-        "Built a web app utilizing Gemini AI to identify leaf images, enabling quick and accurate plant classification for researchers and enthusiasts.",
+        "Trained a deep-learning model to accurately identify leaf images, enabling quick and precise plant classification for researchers, students, and enthusiasts.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Gemini",
         "TailwindCSS",
-        "Supabase",
-        "Shadcn UI",
-        "Framer Motion",
+        "Python",
+        "Flask",
+        "TensorFlow",
+        "YOLOv8",
+        "Scikit-learn",
+        "NumPy",
       ],
       links: [
         {
@@ -253,11 +278,11 @@ export const DATA = {
     },
     {
       title: "Synergreens",
-      href: "https://synergreens-deo-abutal.vercel.app/",
+      href: "https://synergreens-by-deo-abutal.vercel.app/",
       dates: "August 2024",
       active: true,
       description:
-        "Developed a sleek website for a food supplement distribution business, showcasing products with dynamic Framer Motion animations and modern HyperUI components for an engaging user experience.",
+        "Developed a sleek e-commerce website for a food supplement distribution business, showcasing products with dynamic Framer Motion animations and modern HyperUI components for an engaging user experience.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -271,12 +296,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://synergreens-deo-abutal.vercel.app/",
+          href: "https://synergreens-by-deo-abutal.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/CHlNlTO/synergreens-deo-abutal",
+          href: "https://github.com/CHlNlTO/synergreens-by-deo-abutal",
           icon: <Icons.github className="size-3" />,
         },
       ],
