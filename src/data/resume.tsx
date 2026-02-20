@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Fullstack Web Developer & Competitive Programmer. I love building things and solving problems.",
   summary:
-    "I&apos;ve gained hands-on experience with technologies like **Next.js**, **Laravel**, **Flask**, **Ruby on Rails**, and have worked on a range of freelance projects. I&apos;m passionate about coding and I enjoy learning new tools to keep growing as a developer. Outside of coding, I&apos;m always up for new challenges—whether it&apos;s a hackathon, a side project, or just exploring ways technology can solve real-world problems.",
+    "I&apos;ve gained hands-on experience with technologies like **Next.js**, **Laravel**, **Flask**, **Ruby on Rails**, **Python**, **Typescript**, and have worked on a range of freelance projects and enterprise-grade applications from e-commerce to AI-powered legal applications. I&apos;m passionate about coding and I enjoy learning new tools to keep growing as a developer. Outside of work, I&apos;m always up for new challenges, whether it&apos;s a hackathon, a side project, or just exploring ways technology can solve real-world problems.",
   avatarUrl: "/me.JPG",
   skills: [
     "React",
@@ -81,6 +81,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "PatentMaker Software GmbH",
+      href: "https://patentmaker.eu/",
+      badges: ["Germany"],
+      location: "Remote",
+      title: "Fullstack Web Developer - Freelance",
+      logoUrl: "/patentmaker.png",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "Engineering AI-orchestrated legal automation tools for patent drafting and prosecution. Building scalable backend services in TypeScript and Python, managing complex document generation and analysis, and structured data workflows for patent professionals across Europe.",
+    },
     {
       company: "Leadfusion 360",
       href: "https://leadfusion360.com.au/",

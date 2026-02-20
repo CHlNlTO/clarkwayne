@@ -30,7 +30,7 @@ export const ResumeCard = ({
   description,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(
-    title === "Leadfusion 360" ? true : false
+    title === "PatentMaker Software GmbH" ? true : false
   );
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
